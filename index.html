@@ -338,31 +338,40 @@
 
         <!-- FORM SECTION 4 -->
         <section class="section4 forms">
-            <form action="" method="get">
+            <form class="form" action="" method="get">
 
-                <div class="url">
-                    <label for="url">Paste URL here...</label>
-                    <input type="text" id="url">
+                <div class="input">
+                    <div class="url">
+                        <label for="url">Paste URL here...</label>
+                        <input type="text" id="url">
+                    </div>
+                    <div class="others">
+                        <div class="domain">
+                            <label for="domain"></label>
+                            <select name="domain" id="domain">
+                                <option class="label" value="" id="uvjj">Choose Domain</option>
+                                <option value="">Domain A</option>
+                                <option value="">Domain B</option>
+                            </select>
+                        </div>
+                        <div class="alias">
+                            <input type="text" id="alias">
+                            <label for="alias">Type Alias here</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="domain">
-                    <label for="domain"></label>
-                    <select name="domain" id="domain">
-                        <option value="">Choose Domain</option>
-                        <option value="">Domain A</option>
-                        <option value="">Domain B</option>
-                    </select>
-                </div>
-                <div class="alias">
-                    <label for="alias">Type Alias here</label>
-                    <input type="text" id="alias">
-                </div>
-                <div class="submit">
-                    <button type="submit">Trim URL</button>
-                </div>
-                <div class="terms">
-                    <p class="terms">By clicking TrimURL,
-                        I agree to the Terms of Service,
-                        Privacy Policy and Use of Cookies.</p>
+                <div class="trim">
+                    <div class="submit">
+                        <button type="submit">Trim URL                     <img src="/Assest/Images/icons/magic wand.svg" alt="icon" srcset="">
+                        </button>
+                    </div>
+                    <div class="terms">
+                        <p class="terms">By clicking TrimURL,
+                            I agree to the <span>
+                                Terms of Service,
+                                Privacy Policy
+                            </span> and Use of Cookies.</p>
+                    </div>
                 </div>
             </form>
         </section>

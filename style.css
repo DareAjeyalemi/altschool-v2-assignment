@@ -683,14 +683,114 @@ height: 3rem;
 }
 
 
+/* FORM SECTION 4 */
+
+section.forms{
+  background-image: url(/Assest/Images/background/form-bcg.svg);
+  width: 100%;
+  padding-top: 5.2rem;
+  padding-bottom: 5.3rem;
+}
+
+
+/* Forms */
+form.form{
+  border-radius: 1rem;
+  width: 29.75rem;
+  height: 22.1rem;
+  padding: 2.6rem;
+  background-color: rgb(252, 252, 252);
+}
+form button{
+  width: 24.5rem;
+  height: 3rem;
+  gap: 10px
+  ;
+  
+}
+form button img{
+  margin: 0;
+}
+
+/* input */
+form .input{
+padding: 0;
+margin-bottom: 3rem;
+width: 24rem;
+height: 8rem;
+display: flex;
+flex-direction: column;
+gap: 0.75rem;
+}
+
+.input .url input{
+  width: 24.5rem;
+  height: 3.4rem;
+  border-radius: 0.75rem ;
+  border: 1px solid #0065FE;
+}
+.url>label{
+  position: relative;
+  left: 2rem;
+  top: 2.3rem;
+}
 
 
 
+/* Domain */
+.others{
+  color:  #0065FE;
+  display: flex;
+  gap: 0.75rem;
+}
 
+#uvjj{
+text-align: center;
 
+}
 
+#domain{
+  color:  #0065FE;
+  width: 12.6rem;
+  height: 3rem;
+  border: 1px solid #0065FE;
+  border-radius: 0.75rem;
+}
+/* alias */
 
+#alias{
+  color:  #0065FE;
+  width: 11rem;
+  height: 3rem;
+  border: 1px solid #0065FE;
+  border-radius: 0.75rem;
+}
 
+.alias label{
+  position: relative;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+/* terms */
+.trim {
+  display: flex;
+  flex-direction: column;
+  width: 24.5rem;
+  height: 7.5rem;
+  gap: 0.75rem;
+  padding: 10px;
+
+}
+.terms{
+  color: #3284FF;
+  font-family: Gilroy-Light;
+}
+.terms>span{
+  color: #3284FF;
+font-family: Gilroy-Bold;
+font-weight: bolder;
+}
 
 
 
@@ -807,9 +907,6 @@ h1>span {
   width: 100%;
 }
 
-p.short {
-  margin: ;
-}
 
 .section5 .wrapper {
   margin: auto;
