@@ -430,7 +430,7 @@ img[src="/Assest/Images/icons/feature-icon4.svg"] {
 }
 
 .short,
-.custom,
+.customize,
 .qr,
 .data {
   width: 21.25rem;
@@ -657,26 +657,29 @@ padding-bottom: 0.5rem;
 width:12.7rem;
   
 }
+/* custom */
   
 
-/* con */
-
-/* 
 
 
-.custom {
 
+.custom, .select {
+width: 12.5rem;
+height: 3rem;
   border: 1px solid #0065FE;
   background-color: #fff;
   color: #0065FE;
   font-family: Gilroy-SemiBold;
 }
 
+.price-custom{
+  display: flex;
+  gap: 0.75rem ;
+  margin-bottom: 7rem;
+}
 .select {
-  border: 1px solid #0065FE;
   background-color: #0065FE;
   color: #fff;
-  font-family: Gilroy-SemiBold;
 }
 
 
